@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.logo img {
+  width: 100%;
+  max-width: 100px;
+}
+
+
+main {
+  text-align: center;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery a {
+  margin: 10px;
+  width: 280px;
+}
+
+
+.noticias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.noticia {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 10px;
+}
+
+.redes-sociales a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.texto,
+.contacto {
+  flex: 1;
+  text-align: center;
+}
+
+.texto p,
+.contacto p {
+  margin: 0;
+}
